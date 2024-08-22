@@ -1,0 +1,44 @@
+.card1 {
+    border: 2px solid saddlebrown;
+    border-radius: 7rem;
+    margin-bottom: 1rem; /* Add margin to separate cards */
+}
+
+.hello {
+    margin-top: 10px;
+}
+
+.container {
+    margin-bottom: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the left */
+}
+
+.btn {
+    display: flex;
+    width: auto; /* Set width to auto for responsiveness */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 992px) {
+    .card1 {
+        margin: 0 10px; /* Adjust margins on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .card1 {
+        border-radius: 0; /* Remove border-radius on small screens */
+    }
+
+    .container {
+        padding: 0 15px; /* Add padding on small screens */
+    }
+
+    .buttons {
+        justify-content: center; /* Center buttons on small screens */
+    }
+}

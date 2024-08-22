@@ -1,0 +1,206 @@
+.flex-container {
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  align-items: flex-start; /* Aligns items to the extreme left */
+  padding-left: 1rem; /* Adds padding to the left side */
+  border: none; /* No border initially */
+  border-right: 2px solid black; /* Adds a black border on the right */
+  width: 200px; /* Ensures the container takes up space */
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+.flex-item {
+  margin-top: 0px; /* Correct margin-top syntax */
+  margin-bottom: 0.5rem; /* Adds space between rows */
+}
+
+.btn {
+  font-weight: 0; /* Makes the text bold */
+  width: 100%; /* Ensures the button spans the full width of its container */
+  display: flex; /* Uses flex to align text and arrows */
+  justify-content: space-between; /* Ensures text and arrow are spaced correctly */
+  text-align: left; /* Aligns text to the left */
+}
+
+.btn-arrow-1::after {
+  content: " >";
+  margin-left: 0.5rem; /* Space for the first button */
+}
+
+.btn-arrow-2::after {
+  content: " >";
+  margin-left: 2rem; /* Space for the second button */
+}
+
+.btn-arrow-3::after {
+  content: " >";
+  margin-left: 1.7rem; /* Space for the third button */
+}
+.btn-arrow-4::after {
+  content: " >";
+  margin-left: 3rem; /* Space for the third button */
+}
+.btn-arrow-5::after {
+  content: " >";
+  margin-left: 3rem; /* Space for the third button */
+}
+.btn-arrow-6::after {
+  content: " >";
+  margin-left: 4.1rem; /* Space for the third button */
+}
+.crousel-slide{
+  display: flex;
+  position: relative;
+}
+.custom-carousel {
+  width: 100%; /* Set to 100% to take full width of the parent */
+  max-width: 2000px; /* Set a maximum width for the carousel */
+  height: 270px; /* Set a fixed height for the carousel */
+  overflow: hidden; /* Ensures overflow is hidden */
+  margin: 0px; /* Centers the carousel */
+}
+@media (max-width: 992px) { /* 992px is the breakpoint for medium screens in Bootstrap */
+.custom-carousel {
+    width: 100vw; /* Set width to 80% of the viewport width */
+    height: 270px; /* Keep height the same */
+}
+}
+
+.custom-carousel .carousel-inner {
+  height: 100%; /* Ensure inner carousel takes full height */
+}
+
+.custom-carousel .carousel-item {
+  height: 100%; /* Ensure each item takes full height */
+}
+
+.custom-carousel .carousel-item img {
+  width: 100%; /* Make the image take full width */
+  height: 100%; /* Make the image take full height */
+  object-fit: fill; /* Ensures images cover the area without distortion */
+  overflow-x: hidden;
+}
+
+/* Sidebar Styling */
+.sidebar {
+margin-top: 50px;
+background-color: #fff; /* Light gray background */
+padding: 20px;
+}
+
+.list-group-item {
+  background-color: transparent; /* Remove default background color */
+  border: none; /* Remove default border */
+  font-size: 16px; /* Change text size */
+  font-family: 'poppins',sans-serif;
+  font-weight: 600; /* Adjust font weight if needed */
+  padding: 10px 15px; /* Add padding around text */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.list-group-item:hover {
+background-color: #DB4444; /* Highlight color on hover */
+color: white;
+}
+
+/* Carousel Styling */
+.custom-carousel .carousel-inner img {
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Carousel Control Styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+filter: invert(100%); /* White icons */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+width: 5%;
+}
+
+/* Container for images */
+/* Container for images */
+/* Container for images */
+
+/* Style for each image */
+/* Container for images */
+.image-row {
+  display: flex; /* Align images horizontally */
+  gap: 20px; /* Space between images */
+  margin-bottom: 20px; /* Space below the images */
+}
+
+/* Style for each image */
+.image-item {
+  border-radius: 15px; /* Rounded corners for the images */
+  object-fit: cover;
+  height: 300px; /* Ensure images cover their area without distortion */
+}
+
+/* Specific styles for the first image */
+.image-item-first {
+  width: 40%; /* Make the first image smaller */
+}
+
+/* Specific styles for the second image */
+.image-item-second {
+  width: 60%; /* Make the second image larger */
+}
+
+/* Optional: For smaller screens */
+@media (max-width: 768px) {
+  .image-row {
+      flex-direction: column; /* Stack images vertically on smaller screens */
+  }
+  .image-item {
+      width: 100%; /* Full width on smaller screens */
+  }
+}
+
+
+/* Add this to your landingpage.css file */
+
+/* Add this to your landingpage.css file */
+
+.sidebar {
+  background-color: #fff; /* Optional: background color for better visibility */
+  padding: 10px; /* Optional: padding around the sidebar */
+  display: flex;
+  flex-direction: column;
+  height: 80vh; /* Full height of the viewport */
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size if needed */
+}
+
+.list-group-item i {
+  margin-right: 20px; /* Space between icon and text */
+}
+
+.logout-section {
+  margin-top: auto; /* Pushes the logout section to the bottom */
+  padding: 10px;
+  border-top: 1px solid #e9ecef; /* Optional: border to separate logout section */
+}
+
+.logout-section .list-group-item {
+  font-size: 14px; /* Adjust font size for logout item if needed */
+}
+
+.image-row {
+  display: flex;
+  gap: 15px; /* Adjust spacing between images */
+}
+
+.image-item {
+  max-width: 100%; /* Ensure images do not exceed container width */
+  height: auto;
+}
+
+

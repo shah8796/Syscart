@@ -1,0 +1,51 @@
+.frame-759 {
+    width: 371px;
+    height: 530px;
+}
+
+.frame-759>* {
+    margin-bottom: 30px;
+    /* Setting gap between child elements */
+}
+
+.frame-759>*:last-child {
+    margin-bottom: 0;
+    /* Removing the margin from the last child */
+}
+
+.custom-input {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    width: 100%;
+}
+/* login.css */
+
+.sideimage {
+    /* Container style */
+    width: 805px; /* or your desired width */
+    height: 781px; /* or your desired height */
+    background: #CBE4E8;
+    border-radius: 0px 4px 4px 0px;
+    overflow: hidden; /* Ensure the image doesn't overflow */
+  }
+  
+  .side-image {
+    width: 90%; /* Adjusts to the width of the container */
+    height: 80%; /* Adjusts to the height of the container */
+    object-fit: contain; /* Ensures the image covers the container without stretching */
+  }
+  .btnwidth{
+    width:100%;
+  }
+  @media (max-width: 576px) {
+    .side-image {
+        display: none;
+      }
+      /* .smallbord{
+        margin:5%;
+        border: 1px solid black;
+        border-radius: 10px;
+      } */
+}
+  

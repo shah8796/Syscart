@@ -1,0 +1,190 @@
+.container-fluidp{
+    margin-bottom: 50px;
+}
+.item-img {
+    width: 50vw;
+    /* Adjusts to the width of the container */
+    height: 68vh;
+    /* Adjusts to the height of the container */
+    object-fit: contain;
+    /* Ensures the image covers the container without stretching */
+}
+@media (max-width: 576px) { /* Bootstrap's default breakpoint for small screens */
+    .item-img {
+        width: 70vw; /* Larger width for small screens */
+        height: 80vh; /* Larger height for small screens */
+    }
+}
+@media (max-width: 992px) { /* Bootstrap's default breakpoint for medium screens */
+    .item-img {
+        width: 60vw; /* Larger width for medium screens */
+        height: 75vh; /* Larger height for medium screens */
+    }
+}
+
+.hr {
+
+    height: 1px;
+    background: #333;
+    margin: 1rem 0;
+}
+
+/* .radio1{
+    appearance: none;
+    background-color: #6B8E23; 
+} */
+input[type=radio]#green {
+    appearance: none;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    padding-left: 2px;
+    /* background-clip: content-box; */
+    border: 2px solid #6B8E23;
+    background-color: #6B8E23;
+}
+
+input[type=radio]#red {
+    appearance: none;
+    width: 13px;
+    height: 13px;
+    padding-left: 2px;
+    border-radius: 50%;
+    /* background-clip: content-box; */
+    border: 2px solid red;
+    background-color: red;
+}
+
+input[type=radio]#blue {
+    appearance: none;
+    width: 13px;
+    height: 13px;
+    padding-left: 2px;
+    border-radius: 50%;
+    /* background-clip: content-box; */
+    border: 2px solid blue;
+    background-color: blue;
+}
+
+input[type="radio"]#red:checked {
+    /* background-color: #000; */
+    padding: 4px;
+    border: 2px solid #000;
+}
+
+input[type="radio"]#blue:checked {
+    /* background-color: #000; */
+    padding: 4px;
+    border: 2px solid #000;
+}
+
+input[type="radio"]#green:checked {
+    /* background-color: #000; */
+    padding: 4px;
+    border: 2px solid #000;
+}
+
+.radio1>* {
+    padding: 2px;
+}
+
+input[type="radio"].size {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 25px;
+    height: 25px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 10px;
+    /* padding-left:2px ; */
+    /* margin-top: 2px; */
+
+    color: black;
+
+}
+
+input[type="radio"].size::before {
+    content: attr(data-text);
+    pointer-events: none;
+}
+
+input[type="radio"].size:checked {
+
+    border-color: black;
+}
+
+.btnminus {
+    border: 1px solid black;
+    border-radius: 4px 0 0 4px;
+    width: 40px;
+    height: 44px;
+    background-color: white;
+}
+
+.countarea {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 80px
+}
+
+.btnplus {
+    border: 1px solid black;
+    border-radius: 0 4px 4px 0;
+    width: 40px;
+    height: 44px;
+    background-color: red;
+    color: white;
+}
+
+.buy {
+    width: 165px;
+    height: 44px;
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+}
+
+.delivery {
+    border: 1px solid black;
+    /* width: 80%; */
+    width: 399px;
+    height: 130px;
+    border-radius: 4px 4px 0 0;
+}
+
+.return {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    /* width: 80%; */
+    width: 399px;
+    height: 130px;
+    /* height: auto; */
+    border-radius: 0 0 4px 4px;
+}
+@media (max-width: 576px) {
+    .delivery {
+        width: 95%; /* Adjust width for small screens */
+        height: auto; /* Height adjusts based on content */
+    }
+    .return {
+        width: 95%; /* Adjust width for small screens */
+        height: auto; /* Height adjusts based on content */
+    }
+}
+@media (max-width: 992px) {
+    .delivery {
+        width: 90%; /* Adjust width for medium screens */
+        height: auto; /* Height adjusts based on content */
+    }
+    .return {
+        width: 90%; /* Adjust width for small screens */
+        height: auto; /* Height adjusts based on content */
+    }
+}

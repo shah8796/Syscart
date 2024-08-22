@@ -1,0 +1,77 @@
+export const items = [
+    {
+      id: 1,
+      category: 'Woman Fashion',
+      title: "T-Shirt And Shorts",
+      imgSrc: 'https://m.media-amazon.com/images/I/71HOdqyApyL._SX679_.jpg',
+      description: 'Fabric:- Soft ',
+      price: '999',
+    },
+    {
+      id: 5,
+      category: 'Woman Fashion',
+      title: "T-Shirt And Shorts",
+      imgSrc: 'https://m.media-amazon.com/images/I/71fZUdH2IAL._SX679_.jpg',
+      description: 'Fabric:- Soft  ',
+      price: '999',
+    },
+    {
+      id: 7,
+      category: 'Woman Fashion',
+      title: "Oversized T-Shirt ",
+      imgSrc: 'https://th.bing.com/th/id/OIP.-lwIdwOgD85Ettu6GHCbNAHaHa?rs=1&pid=ImgDetMain',
+      description: 'Cotton Blend , printed ',
+      price: '999',
+    },
+    {
+      id: 2,
+      category: 'Woman Fashion',
+      title: "Slipper Sandals",
+      imgSrc: 'https://m.media-amazon.com/images/I/51Sy5353soL._SY695_.jpg',
+      description: 'Skin Friendly Material',
+      price: '999',
+    },
+    {
+      id: 6,
+      category: 'Woman Fashion',
+      title: "Sneakers",
+      imgSrc: 'https://m.media-amazon.com/images/I/71iwpAqaDOL._SY695_.jpg',
+      description: 'Running Shoe, comfortable ',
+      price: '19999',
+    },
+    {
+      id: 3,
+      category: 'Woman Fashion',
+      title: "Slippers",
+      imgSrc: 'https://m.media-amazon.com/images/I/51-2tM1l6rL._SX695_.jpg',
+      description: 'Skin Friendly Material',
+      price: '69999',
+    },
+    {
+      id: 4,
+      category: 'Woman Fashion',
+      title: "T-Shirt And Shorts",
+      imgSrc: 'https://m.media-amazon.com/images/I/71HOdqyApyL._SX679_.jpg',
+      description: 'Fabric:- Soft ',
+      price: '999',
+    },
+    {
+      id: 9,
+      category: 'Woman Fashion',
+      title: "T-Shirt And Shorts",
+      imgSrc: 'https://m.media-amazon.com/images/I/71fZUdH2IAL._SX679_.jpg',
+      description: 'Fabric:- Soft  ',
+      price: '999',
+    },
+    {
+      id: 8,
+      category: 'Woman Fashion',
+      title: "Oversized T-Shirt ",
+      imgSrc: 'https://th.bing.com/th/id/OIP.-lwIdwOgD85Ettu6GHCbNAHaHa?rs=1&pid=ImgDetMain',
+      description: 'Cotton Blend , printed ',
+      price: '999',
+    },
+  ];
+  
+  export default items;
+  
